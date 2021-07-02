@@ -162,8 +162,35 @@ index 0000000..cd24a02
 
 ## Sync your changes to GitHub
 
-First 
+To upload your individual branch as a branch on the GitHub repo and link the two together, first set the upstream origin and push the changes to GitHub, which can all be done in one command. 
 
-`git push --set-upstream origin GitHubLab-gwn`
+`git push --set-upstream origin GitHubLab-[yourname]`
 
+Detailed output returned should be similar to this: 
 
+```
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (18/18), 2.70 KiB | 1.35 MiB/s, done.
+Total 18 (delta 0), reused 6 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'GitHubLab-gnasses' on GitHub by visiting:
+remote:      https://github.com/gnasses/GitHubLab/pull/new/GitHubLab-gnasses
+remote: 
+To https://github.com/gnasses/GitHubLab.git
+ * [new branch]      GitHubLab-gnasses -> GitHubLab-gnasses
+Branch 'GitHubLab-gnasses' set up to track remote branch 'GitHubLab-gnasses' from 'origin'.
+```
+
+Note these lines in the above output:
+
+```
+remote: Create a pull request for 'GitHubLab-gnasses' on GitHub by visiting:
+remote:      https://github.com/gnasses/GitHubLab/pull/new/GitHubLab-gnasses
+```
+
+These show the link in GitHub to create a 'Pull Request' which is a request to the owner of the original main repo to merge the changes from your branch into the master branch. 
+
+Go to that link, and make the pull request. The owner will receive an email to let them know a request has been made
