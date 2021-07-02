@@ -195,5 +195,5 @@ These show the link in GitHub to create a 'Pull Request' which is a request to t
 
 Go to that link, enter some text in the comment box to describe the code being merged in (Required) and click the green 'Create Pull Request' button to make the pull request. The owner will receive an email to let them know a merge request has been made and approval is required. The pull request will show if there are any conflicts between branches.
 
-![image](https://github.com/gnasses/GitHubLab/blob/master/pull request screenshot.jpg?raw=true)
+![image](https://github.com/gnasses/GitHubLab/blob/master/pull_request_screenshot.jpg?raw=true)
 
