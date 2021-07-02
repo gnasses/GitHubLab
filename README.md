@@ -53,8 +53,22 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
-
-Now create a new branch to work with. This will not change any of the files, but identifies this in git as distinct work from 'main' which is the master copy. Choose a name for your branch that is easily related to the original repo to avoid confusion. 
+Create a new Branch of this local repo to work with. This will not change any of the files, but identifies this in git as distinct work from 'main' which is the master copy. Choose a name for your branch that is easily related to the original repo to avoid confusion. 
 
 `git branch GitHubLab-[yourname]`
+
+The checkout command switches to the new branch so you are working there
+
+`git checkout GitHubLab-[yourname]`
+
+Verify your current working branch
+
+`git status`
+
+Your output should look similar to this:
+
+```
+On branch GitHubLab-gnasses
+nothing to commit, working tree clean
+```
 
