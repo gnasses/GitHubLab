@@ -193,4 +193,5 @@ remote:      https://github.com/gnasses/GitHubLab/pull/new/GitHubLab-gnasses
 
 These show the link in GitHub to create a 'Pull Request' which is a request to the owner of the original main repo to merge the changes from your branch into the master branch. 
 
-Go to that link, and make the pull request. The owner will receive an email to let them know a request has been made
+Go to that link, and click the green 'Create Pull Request' button to make the pull request. The owner will receive an email to let them know a merge request has been made and approval is required. 
+
