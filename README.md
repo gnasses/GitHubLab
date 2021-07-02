@@ -197,3 +197,8 @@ Go to that link, enter some text in the comment box to describe the code being m
 
 ![image](https://github.com/gnasses/GitHubLab/blob/571c13e538e456c61e369e5208a63438fa84a333/pull%20request%20screenshot.png?raw=true)
 
+---
+
+## Repo Owner Code Review and Merge into `main`
+
+These steps are taken by the Repo owner and show the most basic code review and approval process, for a repo with a single owner/reviewer.  	
