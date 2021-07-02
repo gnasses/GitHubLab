@@ -46,10 +46,13 @@ Show the repo status to confirm it cloned correctly, and that you are seeing the
 
 You should see similar output to this: 
 
-`On branch main
+```
+On branch main
 Your branch is up to date with 'origin/main'.
 
-nothing to commit, working tree clean`
+nothing to commit, working tree clean
+```
+
 
 Now create a new branch to work with. This will not change any of the files, but identifies this in git as distinct work from 'main' which is the master copy. Choose a name for your branch that is easily related to the original repo to avoid confusion. 
 
