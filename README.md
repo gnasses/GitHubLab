@@ -75,15 +75,95 @@ Your output should look similar to this:
 On branch GitHubLab-gnasses
 nothing to commit, working tree clean
 ```
+---
 
-## Making Changes
+## Making, Tracking, and Saving Changes
 
 Working in the new branch, create a new directory with your name or initials and create a new file in that directory (syntax will depend on your local OS)
 
 ```
 mkdir [yourname]
 cd [yourname]
-echo "Working on the Git lab" > [yourname].txt
+echo "Starting on the Git lab" > [yourname].txt
 ```
+
+Check the status, to show that there are new untracked files
+
+`git status`
+
+Your output should look like this: 
+
+```
+On branch GitHubLab-gnasses
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+Start tracking the new file. Specify the individual filename, or use '.' to select all filenames.   
+
+`git add . `
+
+'git status' output should now look like this: 
+
+```
+On branch GitHubLab-gnasses
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   gnasses.txt
+```
+
+Commit the file to save your changes. Best Practice is to leave a descriptive message to identify the work or change being saved. If you do not use the -m switch, git will ask for the commit messsage. 
+
+`git commit -m "new directory and text file" `
+
+Your returned output should be similar to this: 
+
+```
+[GitHubLab-gnasses 46d19fd] new directory and text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 gnasses/gnasses.txt
+```
+
+Make a file change, add the file to tracking, and make another commit (edit syntax for your OS)
+
+`echo "Working on the Git lab" >> [yourname].txt`
+
+`git add . `
+
+`git commit -m "first edit to new file"`
+
+Output from this commit should look similar to below. Note that the commit id number (immediately after the branch name) is different. Each commit is uniquely tracked. 
+
+```
+[GitHubLab-gnasses eaeffec] first edit to new file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+Compare Differences to the original 'main' branch
+
+`git diff main GitHubLab-[yourname]`
+
+Your output should show a linux-style diff of the changessimilar to this: 
+
+```
+diff --git a/gnasses/gnasses.txt b/gnasses/gnasses.txt
+new file mode 100644
+index 0000000..cd24a02
+--- /dev/null
++++ a/gnasses/gnasses.txt
+@@ -0,0 +1,2 @@
++Starting on the Git lab
++Working on the Git lab
+```
+---
+
+## Sync your changes to GitHub
+
+First 
+
+`git push --set-upstream origin GitHubLab-gwn`
 
 
