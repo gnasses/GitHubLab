@@ -1,6 +1,8 @@
 # GitHubLab
 This is a demo repository with supplemental lab exercises to learn about using Git and GitHub as part of a DevNet study group
 
+---
+
 ## Git setup
 
 ### Install Software
@@ -28,6 +30,8 @@ Set your email address for use with your commits and GitHub transactions (should
 (Optionally) Enable helpful colorization of CLI Output. 
 
 `git config --global color.ui auto`
+
+---
 
 ## Working with an existing Repo
 This example will show how to work with an existing GitHub repo, either yours or someone else's as long as it is public or you have permissions
@@ -71,4 +75,15 @@ Your output should look similar to this:
 On branch GitHubLab-gnasses
 nothing to commit, working tree clean
 ```
+
+## Making Changes
+
+Working in the new branch, create a new directory with your name or initials and create a new file in that directory (syntax will depend on your local OS)
+
+```
+mkdir [yourname]
+cd [yourname]
+echo "Working on the Git lab" > [yourname].txt
+```
+
 
