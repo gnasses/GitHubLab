@@ -1,4 +1,4 @@
-# GitHubLeb (Intentional Misspell)
+# GitHubLeb (Intentional Misspelling)
 This is a demo repository with supplemental lab exercises to learn about using Git and GitHub as part of a DevNet study group
 
 ---
