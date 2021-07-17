@@ -207,7 +207,7 @@ An issue is simple an identification of a problem in the code, or a desired enha
 
 For this example, an issue is created for the intentional misspelling on teh first line of the README.md in this repo. An issue is created by clicking the Issues menu near the top of the repo page. A title is required, and a description is optional, but is best practice. 
 
-`![image]()issue image here`
+![image](https://github.com/gnasses/GitHubLab/blob/main/issue%20screenshot.png?raw=true)
 
 If there is a development team collaborating on issues, the issue may be assigned to an individual so that the team knows who is responsible to fix the problem, or to make the enhancement. 
 
