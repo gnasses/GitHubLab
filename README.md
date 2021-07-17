@@ -214,7 +214,7 @@ If there is a development team collaborating on issues, the issue may be assigne
 ![image](https://github.com/gnasses/GitHubLab/blob/54f46a57baeec461cde7ad991577e98e214ba8b9/Assignment%20screenshot.png)
 
 ### Pull Request
-Above, the branch creation and pull request processes is described to incorporate the branch. The typical developer workflow is similar, however a best practice for shared development is to have each pull request related to an issue logged in the repo. In the description for the pull request, you would add the text `fixes #1` to link the request to issue #1. If the pull request is approved and the branch merged into `main` then GitHub will automatically close the issue and link to which pull request fixed the issue. Best practive is also to delete the branch for a particular feature once it is merged into `main`. 
+Above, the branch creation and pull request processes is described to incorporate the branch. The typical developer workflow is similar, however a best practice for shared development is to have each pull request related to an issue logged in the repo. In the description for the pull request, you would add the text `fixes #10` to link the request to issue #10. If the pull request is approved and the branch merged into `main` then GitHub will automatically close the issue and link to which pull request fixed the issue. Best practive is also to delete the branch for a particular feature once it is merged into `main`. 
 
 `![image]()pull request image here`
 
