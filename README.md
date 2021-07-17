@@ -218,6 +218,8 @@ Above, the branch creation and pull request processes is described to incorporat
 
 ![image](https://github.com/gnasses/GitHubLab/blob/b7df8d6ca889e3644d89634b7be181d43c9a18fa/issuefix%20screenshot.png?raw=true)
 
+An important feature that can be very useful for iterative code or preliminary work on new features is to open a Draft Pull Request. This means that the pull request is saved and reviews can be requested, but the puill request is not yet staged to be merged into `main`
+
 ### Repo Owner Code Review/Approval and Merge into `main`
 Proper code control makes sure that only the product owner or those responsible for the product development are able to approve the merge of any new branches into the `main` branch, even though any team member (or anyone at all, for open source software) can submit a pull request. Dilligent product owners will review any code before it is merged in, and may even require more than one approver before code is merged. This is configurable in teh GitHub repo. 
 
@@ -238,5 +240,15 @@ Here the pull request has been modified to include additional spelling fixes, an
 
 #### Approve, Merge, Delete Branch
 
-`![image]()`
+Once the reviewer is happy with the changes, they should mark the pull request as approved. 
+
+![image](https://github.com/gnasses/GitHubLab/blob/b1b791495bf1975c5a96dba715625d70878d0b4b/changes%20approved%20screenshot.png?raw=true)
+
+Once the pull request is approved, it is ready to be merged into `main`
+
+![image](https://github.com/gnasses/GitHubLab/blob/b1b791495bf1975c5a96dba715625d70878d0b4b/changes%20merged%20screenshot.png?raw=true)
+
+After the pull request is merged, it is automatically closed. Any issues specified as fixed in the pull request are also closed. Now, best practice is to delete the branch that was merged into `main`
+
+![image](https://github.com/gnasses/GitHubLab/blob/b1b791495bf1975c5a96dba715625d70878d0b4b/branch%20ready%20to%20delete%20screenshot.png?raw=true)
 
