@@ -234,7 +234,7 @@ If the reviewer finds problems or has questions about the code they can request 
 
 Here the pull request has been modified to include additional spelling fixes, and the requester has added notes and re-requested review. 
 
-![image](https://github.com/gnasses/GitHubLab/blob/ac4d282d644b791c9c0f789c79c7d4edc77c82f9/changes%20made%20screenshot.png?raw=true)
+![image](https://github.com/gnasses/GitHubLab/blob/374abbe44e68f2feafe4d23c447d12a905ccd7e5/changes%20made%20screenshot.png?raw=true)
 
 #### Approve, Merge, Delete Branch
 
