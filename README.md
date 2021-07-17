@@ -197,8 +197,23 @@ Go to that link, enter some text in the comment box to describe the code being m
 
 ![image](https://github.com/gnasses/GitHubLab/blob/571c13e538e456c61e369e5208a63438fa84a333/pull%20request%20screenshot.png?raw=true)
 
+
 ---
+## Typical Developer Workflow
+This section describes the profcess of a typical development workflow to collaborate on a common code repository with basic code control and features of GitHub
 
-## Repo Owner Code Review and Merge into `main`
+### Issues
+An issue is simple an identification of a problem in the code, or a desired enhancement that someone wants developers to work on. Just becasue an issue is identified, does not mean that it will be worked on. It is up to the product/repo owner(s) or the development team to determine the priority of work and even if an issue will be addressed at all. Sometimes just an explanation and comment are all that are required for an issue to be close.  
 
+For this example, an issue is created for the intentional misspelling on teh first line of the README.md in this repo. 
+
+
+
+### Pull Request
+Above, we briefly described the branch creation and pull request processes to incorporate the branch. The typical developer workflow is similar, however a best practice for shared development is to have each pull request related to an issue logged for the code repo. In the description for the pull request, you would add the text `fixes #1` to link the request to issue #1. If the pull request is approved and the branch merged into `main` then GitHub will automatically close the issue and link to which pull request fixed the issue. Best practive is also to delete the branch for a particular feature once it is merged into `main`. 
+
+### Repo Owner Code Review/Approval and Merge into `main`
+Proper code control makes sure that only the product owner or those responsible for the product development are able to approve the merge of any new branches into the `main` branch. 
 These steps are taken by the Repo owner and show the most basic code review and approval process, for a repo with a single owner/reviewer.  	
+
+
