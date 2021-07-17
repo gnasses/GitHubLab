@@ -207,10 +207,13 @@ An issue is simple an identification of a problem in the code, or a desired enha
 
 For this example, an issue is created for the intentional misspelling on teh first line of the README.md in this repo. 
 
+`issue image here`
 
 
 ### Pull Request
-Above, we briefly described the branch creation and pull request processes to incorporate the branch. The typical developer workflow is similar, however a best practice for shared development is to have each pull request related to an issue logged for the code repo. In the description for the pull request, you would add the text `fixes #1` to link the request to issue #1. If the pull request is approved and the branch merged into `main` then GitHub will automatically close the issue and link to which pull request fixed the issue. Best practive is also to delete the branch for a particular feature once it is merged into `main`. 
+Above, the branch creation and pull request processes is described to incorporate the branch. The typical developer workflow is similar, however a best practice for shared development is to have each pull request related to an issue logged in the repo. In the description for the pull request, you would add the text `fixes #1` to link the request to issue #1. If the pull request is approved and the branch merged into `main` then GitHub will automatically close the issue and link to which pull request fixed the issue. Best practive is also to delete the branch for a particular feature once it is merged into `main`. 
+
+`pull request image here`
 
 ### Repo Owner Code Review/Approval and Merge into `main`
 Proper code control makes sure that only the product owner or those responsible for the product development are able to approve the merge of any new branches into the `main` branch, even though any team member (or anyone at all, for open source software) can submit a pull request. Dilligent product owners will review any code before it is merged in, and may even require more than one approver before code is merged. This is configurable in teh GitHub repo. 
@@ -218,5 +221,11 @@ Proper code control makes sure that only the product owner or those responsible 
 ### Code Review Options
 If a repo requires approval before code is merged, there are two basic options for a reviewer (other than ignoring/deleting the pull request)
 These steps are taken by the Repo owner and show the most basic code review and approval process, for a repo with a single owner/reviewer.  	
+
+#### Request Changes
+
+
+#### Approve, Merge, Delete Branch
+
 
 
