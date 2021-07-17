@@ -228,8 +228,13 @@ If a repo requires approval before code is merged, there are two basic options f
 These steps are taken by the Repo owner and show the most basic code review and approval process, for a repo with a single owner/reviewer.  	
 
 #### Request Changes
+If the reviewer finds problems or has questions about the code they can request that the author of the pull request modify their code before it is approved and merged in. The reviewer should add comments to describe what changes they would like to see before code is merged in. The submitted of the pull request does not need to create another pull request, they simply need to update the code in their branch and re-request a review. 
 
 ![image](https://github.com/gnasses/GitHubLab/blob/ac4d282d644b791c9c0f789c79c7d4edc77c82f9/request%20changes%20screenshot.png?raw=true)
+
+Here the pull request has been modified to include additional spelling fixes, and the requester has added notes and re-requested review. 
+
+![image](https://github.com/gnasses/GitHubLab/blob/ac4d282d644b791c9c0f789c79c7d4edc77c82f9/changes%20made%20screenshot.png?raw=true)
 
 #### Approve, Merge, Delete Branch
 
