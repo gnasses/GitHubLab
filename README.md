@@ -221,7 +221,7 @@ Above, the branch creation and pull request processes is described to incorporat
 ### Repo Owner Code Review/Approval and Merge into `main`
 Proper code control makes sure that only the product owner or those responsible for the product development are able to approve the merge of any new branches into the `main` branch, even though any team member (or anyone at all, for open source software) can submit a pull request. Dilligent product owners will review any code before it is merged in, and may even require more than one approver before code is merged. This is configurable in teh GitHub repo. 
 
-`![image]()`
+![image](https://github.com/gnasses/GitHubLab/blob/fa86a61c311e1803e92c36e44d2dbc9c1eb1dbbb/code%20review%20screenshot.png)
 
 ### Code Review Options
 If a repo requires approval before code is merged, there are two basic options for a reviewer (other than ignoring/deleting the pull request)
