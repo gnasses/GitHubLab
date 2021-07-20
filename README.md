@@ -200,7 +200,7 @@ Go to that link, enter some text in the comment box to describe the code being m
 
 ---
 ## Typical Developer Workflow
-This section describes the profcess of a typical development workflow to collaborate on a common code repository with basic code control and features of GitHub
+This section describes the process of a typical development workflow to collaborate on a common code repository with basic code control and features of GitHub
 
 ### Issues/Assigments
 An issue is simple an identification of a problem in the code, or a desired enhancement that someone wants developers to work on. Just becasue an issue is identified, does not mean that it will be worked on. It is up to the product/repo owner(s) or the development team to determine the priority of work and even if an issue will be addressed at all. Sometimes just an explanation and comment are all that are required for an issue to be close.  
